@@ -126,7 +126,6 @@ NPlayEvent::NPlayEvent(BeatType beatType)
     //case BeatType::SUBBEAT:
     //    setVelo(15);
     //    break;
-    }
 }
 
 //---------------------------------------------------------
