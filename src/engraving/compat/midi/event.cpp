@@ -105,7 +105,7 @@ Event::~Event()
 
 NPlayEvent::NPlayEvent(BeatType beatType)
 {
-    setType(ME_INVALID)
+    setType(ME_INVALID);
     //setType(ME_TICK2);
     setVelo(127);
     //switch (beatType) {
