@@ -105,26 +105,26 @@ Event::~Event()
 
 NPlayEvent::NPlayEvent(BeatType beatType)
 {
-    setType(ME_TICK2);
-    setVelo(127);
-    switch (beatType) {
-    case BeatType::DOWNBEAT:
-        setType(ME_TICK1);
-        break;
-    case BeatType::SIMPLE_STRESSED:
-    case BeatType::COMPOUND_STRESSED:
-        // use defaults
-        break;
-    case BeatType::SIMPLE_UNSTRESSED:
-    case BeatType::COMPOUND_UNSTRESSED:
-        setVelo(80);
-        break;
-    case BeatType::COMPOUND_SUBBEAT:
-        setVelo(25);
-        break;
-    case BeatType::SUBBEAT:
-        setVelo(15);
-        break;
+    //setType(ME_TICK2);
+    //setVelo(127);
+    //switch (beatType) {
+    //case BeatType::DOWNBEAT:
+    //    setType(ME_TICK1);
+    //    break;
+    //case BeatType::SIMPLE_STRESSED:
+    //case BeatType::COMPOUND_STRESSED:
+    //    // use defaults
+    //    break;
+    //case BeatType::SIMPLE_UNSTRESSED:
+    //case BeatType::COMPOUND_UNSTRESSED:
+    //    setVelo(80);
+    //    break;
+    //case BeatType::COMPOUND_SUBBEAT:
+    //    setVelo(25);
+    //    break;
+    //case BeatType::SUBBEAT:
+    //    setVelo(15);
+    //    break;
     }
 }
 
